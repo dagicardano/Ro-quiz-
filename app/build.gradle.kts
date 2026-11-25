@@ -20,6 +20,7 @@ android {
     kotlinOptions { jvmTarget = "17" }
 }
 dependencies {
+    implementation("androidx.activity:activity-ktx:1.10.0")
     implementation("androidx.core:core-ktx:1.15.0")
     implementation("com.tom-roush:pdfbox-android:2.0.27.0")
     implementation("com.google.mlkit:text-recognition:16.0.1")
